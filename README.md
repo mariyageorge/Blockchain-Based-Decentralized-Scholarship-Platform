@@ -1,102 +1,13 @@
-﻿# Blockchain-Based-Decentralized-Scholarship-Platform
-# Decentralized Scholarship Platform
+# Sample Hardhat Project
 
-## Overview
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
 
-The Decentralized Scholarship Platform addresses the challenges faced by both sponsors and applicants in the scholarship process. By utilizing blockchain technology, this platform ensures transparency, accountability, and trust in the distribution and utilization of scholarship funds. Sponsors can easily track their contributions, while applicants can confidently submit their applications, knowing that their information is secure and verifiable.
+Try running some of the following tasks:
 
-## Key Features
-
-### Sponsor Login:
-- **Donation Management:** Sponsors can donate funds to the scholarship platform with ease.
-- **Transaction Transparency:** Sponsors can view and verify how their funds are utilized, ensuring accountability.
-- **Token Rewards:** Sponsors receive tokens as rewards for their contributions, providing an incentive for ongoing support.
-
-### Applicant Login:
-- **Application Submission:** Applicants can enter their academic details (marks, qualifications, etc.) along with valid proof (e.g., document uploads).
-- **Scholarship Application:** Applicants can apply for scholarships and provide reservation details if applicable, streamlining the application process.
-- **Verification Process:** The platform ensures that applications are verified, promoting integrity and trustworthiness.
-
-This project aims to create a more efficient and reliable scholarship ecosystem, fostering trust among sponsors and applicants alike.
-
-## Technology Stack
-
-- **Blockchain:** Ethereum
-- **Smart Contracts:** Solidity
-- **Frontend:** HTML, CSS, JavaScript
-- **Web3 Library:** Ethers.js
-
-## Project Structure
-
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
-DecentralizedScholarshipPlatform/
-├── contracts/
-│   └── ScholarshipPlatform.sol
-├── scripts/
-│   └── deploy.js
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   ├── app.js
-│   └── package.json
-├── hardhat.config.js
-└── package.json
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js
-- npm
-- MetaMask (for interacting with the DApp)
-
-### Setup Instructions
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/DecentralizedScholarshipPlatform.git
-   cd DecentralizedScholarshipPlatform
-   ```
-
-2. **Install Hardhat**:
-   ```bash
-   npm install --save-dev hardhat
-   ```
-
-3. **Run Hardhat**:
-   ```bash
-   npx hardhat
-   ```
-
-4. **Install Frontend Dependencies**:
-   Navigate to the frontend directory and install dependencies:
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-5. **Deploy the Smart Contract**:
-   From the root of your project:
-   ```bash
-   npx hardhat run scripts/deploy.js --network localhost
-   ```
-
-6. **Start the Frontend**:
-   In the frontend directory, run:
-   ```bash
-   npm run dev
-   ```
-
-7. **Open the Application**:
-   Visit http://localhost:3000 in your web browser to interact with the DApp.
-
-## Usage
-
-- **Sponsor Actions**: Sponsors can log in, make donations, and view their transaction history to verify fund utilization.
-- **Applicant Actions**: Applicants can register, submit their academic details, and apply for scholarships while uploading necessary proof documents.
-
-## Acknowledgments
-
-- Inspired by the need for transparency and accountability in the scholarship process.
-- Special thanks to the Ethereum, Solidity, and web development communities for their invaluable contributions and resources.
