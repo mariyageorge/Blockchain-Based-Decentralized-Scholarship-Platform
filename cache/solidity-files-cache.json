@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\LENOVO\\Desktop\\Final\\ScholarshipPlatform\\contracts\\Lock.sol": {
+      "lastModificationDate": 1726977306770,
+      "contentHash": "101c00cb43bd6d4be9704e08c973d5ad",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Final\\ScholarshipPlatform\\contracts\\ScholarshipPlatform.sol": {
+      "lastModificationDate": 1726977495695,
+      "contentHash": "a3bf8533bbc984ec828723ecf4441b7e",
+      "sourceName": "contracts/ScholarshipPlatform.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "ScholarshipPlatform"
+      ]
+    }
+  }
+}
